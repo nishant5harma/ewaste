@@ -56,7 +56,7 @@ function generateNavbar() {
             
             
               <div class="dropdown">
-                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">ABOUT 	&#8942;
+                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">ABOUT	
                 
 
 
