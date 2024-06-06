@@ -56,7 +56,7 @@ function generateNavbar() {
             
             
               <div class="dropdown">
-                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">ABOUT 	&#8942;
+                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">ABOUT	
                 
 
 
@@ -77,12 +77,32 @@ function generateNavbar() {
 
 
 
+   
+            
+              <div class="dropdown">
+                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">SERVICES	
+                
 
-              
-            <a href="#"
-              class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">SERVICES </a>
+
+                  
+                </div>
+                <ul tabindex="0" class="dropdown-content bg-white  z-[1] menu p-2 shadow   rounded-box w-52">
+                  <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">Reverse Logistics
+                  </a></li>
+                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">	E-Waste Recycling</a></li>
+                </ul>
+              </div>
+
+
+
             <a href="#"
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">CAREER</a>
+
+
+              <a href="#"
+              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">EPR</a>
+
+
             <a href="contact.html"
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">CONTACT
               US</a>

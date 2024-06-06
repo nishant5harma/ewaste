@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Source Of E-Waste</title>
+  <script src="nav.js"></script>
+  <script>cdn();</script>
+</head>
+
+<body>
+
+  <script>
+
+    generateNavbar();
+  </script>
+
+  <style>
+    .bg-here{
+        background-image: url('erp.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+    }
+  </style>
+
+<section class="bg-white">
+    <div class="bg-here relative">
+        <div class="absolute bg-[#588811] text-white rounded-lg w-[80%] lg:w-[30%] p-5 h-auto  right-10 lg:right-52 top-1/2">
+
+          <h1>What is EPR?
+
+</h1>
+            <br>
+            Extended Producer Responsibility (EPR) is a concept where manufacturers, importers, and sellers of products take responsibility for the entire life cycle of their products, especially regarding proper disposal and recycling. This means that those who produce goods are accountable for the environmental impact of those goods, even after they are sold and used.
+            
+
+        </div>
+
+
+    </div>
+
+
+    <section class="mt-52 md:mt-40 lg:p-10"
+  x-data="{ features: [{ icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z'/></svg>`, title: 'Collection Programs', desc: 'We partner with manufacturers to collect end-of-life electronic products for recycling. Through our extensive collection network, we ensure that electronic waste is properly disposed of and recycled.' }, { icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z'/></svg>`, title: 'Recycling Facilities ', desc: 'Our state-of-the-art recycling facilities are equipped with advanced technology to safely and efficiently process e-waste. We utilize environmentally friendly methods to recover valuable materials and minimize waste.' },{ icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z'/></svg>`, title: 'Compliance ', desc: 'We strictly adhere to local and international regulations regarding e-waste recycling. Our compliance ensures that e-waste is managed responsibly and ethically.' }] }">
+  <div
+    class="max-w-screen-xl mx-auto px-4 gap-16 justify-between md:px-8 lg:flex"
+  >
+    <div>
+      <div class="max-w-xl space-y-3">
+        <h3 class="text-[#588811] font-semibold">EPR</h3>
+        <p class="text-[#588811] text-3xl font-semibold sm:text-4xl">
+          Our Commitment to EPR
+
+        </p>
+        <p class="text-black">
+          As a leading e-waste recycling plant, we adhere to EPR principles to ensure the proper handling and recycling of electronic products. We work closely with manufacturers and producers to establish efficient recycling processes that minimize environmental impact and promote sustainability.
+
+        </p>
+      </div>
+      <div class="mt-12 max-w-lg lg:max-w-none">
+        <ul class="space-y-8">
+          <template x-for="(item, idx) in features" :key="idx">
+            <li class="flex gap-x-4">
+              <div
+                class="flex-none w-12 h-12 bg-indigo-50 text-[#588111] rounded-lg flex items-center justify-center"
+                x-html="item.icon"
+              ></div>
+              <div>
+                <h4
+                  class="text-lg text-black font-semibold"
+                  x-text="item.title"
+                ></h4>
+                <p class="mt-3 text-black" x-text="item.desc"></p>
+              </div>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-32 lg:mt-0">
+      <img 
+        src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png"
+        class="w-full shadow-lg rounded-lg border sticky"
+      />
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="py-14 bg-[#588811]">
+  <div
+    class="max-w-screen-xl mx-auto px-4 text-white gap-12 md:px-8 lg:flex"
+  >
+    <div class="max-w-md">
+      <h3 class="text-white text-3xl font-semibold sm:text-4xl">
+        Join Us in Supporting EPR
+
+      </h3>
+      <p class="mt-3">
+        By choosing GRPL, you are not only responsibly disposing of your electronic waste but also supporting the principles of Extended Producer Responsibility. Together, we can make a positive impact on the environment and build a more sustainable future.
+
+      </p>
+    </div>
+    <div>
+      <ul
+        class="mt-12 gap-y-6 gap-x-12 items-center md:flex lg:gap-x-0 lg:mt-0"
+      >
+        <li
+          class="space-y-3 border-t py-6 md:max-w-sm md:py-0 md:border-t-0 lg:border-l lg:px-12 lg:max-w-none"
+        >
+          <div
+            class="w-12 h-12 rounded-full border flex items-center justify-center text-white"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+          </svg>
+          
+          </div>
+          <h4 class="text-white text-lg font-medium xl:text-xl">
+            Pick Up Form 
+
+          </h4>
+          <p>Fill this form to connect with our team. </p>
+          <a
+            href="javascript:void(0)"
+            class="flex items-center gap-1 bg-blue-50 p-2 rounded-lg text-sm text-indigo-900 duration-150   font-medium"
+            >Fill Form<svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li
+          class="space-y-3 border-t py-6 md:max-w-sm md:py-0 md:border-t-0 lg:border-l lg:px-12 lg:max-w-none"
+        >
+          <div
+            class="w-12 h-12 rounded-full border flex items-center justify-center text-white"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+          </svg>
+          
+          </div>
+          <h4 class="text-white text-lg font-medium xl:text-xl ">
+            Contact Us
+
+          </h4>
+          <p>Connect directly with out team in just one click. </p>
+          <a
+            href="javascript:void(0)"
+            class="flex items-center gap-1 text-sm bg-blue-50 p-2 rounded-lg  text-indigo-900 duration-150   font-medium"
+            >Send us DMs<svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+ 
+
+</body>
+
+<script>
+  footer();
+  js();
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+</body>
+
+</html>
