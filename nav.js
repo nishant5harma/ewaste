@@ -99,7 +99,7 @@ function generateNavbar() {
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">CAREER</a>
 
 
-              <a href="#"
+              <a href="epr.html"
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">EPR</a>
 
 
