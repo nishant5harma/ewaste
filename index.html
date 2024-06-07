@@ -1,3 +1,8 @@
+<!-- Resize the icons -->
+
+<!-- Make navbar, black text color -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +18,7 @@
   </script>
   <style>
     .greenbg {
-      background-color: #588811;
+      background-color: #344822;
     }
 
     * {
@@ -54,20 +59,20 @@
 
     <div class="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2 mt-8 p-3">
       <div class="max-w-xl">
-        <h2 class="text-3xl   lg:text-4xl"> <span class="text-[#588811] md:text-8xl text-[40px] ml-[10px] uppercase">1.6
+        <h2 class="text-3xl   lg:text-4xl"> <span class="text-black md:text-8xl text-[40px] ml-[10px] uppercase">1.6
             Million</span></h2>
 
         <p class="mt-4  text-3xl p-3 break-words"> metric tonnes of E-waste was generated in india in 2023 of which only
-          about <span class="text-[#588811] text-3xl">33%</span> was recycled.</p>
+          about <span class="text-[#344822] text-3xl">33%</span> was recycled.</p>
 
-        <h2 class="p-3"> <span class="text-[#588811] text-3xl " style="font-family:italic!important;">Let's change these
+        <h2 class="p-3"> <span class="text-[#344822] text-3xl " style="font-family:italic!important;">Let's change these
             metrics</span></h2>
 
 
         <div class="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row p-2">
 
           <a href="#"
-            class=" bg-white text-black outline-gray-500 outline block px-5 py-2 text-sm font-medium tracking-wider text-center   transition-colors duration-300 transform  rounded-md  ">Learn
+            class=" bg-white text-black outline-[#344822] outline block px-5 py-2 text-sm font-medium tracking-wider text-center   transition-colors duration-300 transform  rounded-md  ">Learn
             More</a>
         </div>
       </div>
@@ -83,7 +88,7 @@
     class="flex flex-col md:flex-row md:justify-around md:mt-11 md:container md:mx-auto  bg-white relative bottom-10 p-5 mt-10 text-black">
 
     <div class="md:w-1/4 h-40">
-      <img src="https://ecoliwaste.com/wp-content/uploads/2022/06/home-Plastic-Waste-Dustbin.png" class="w-12 z-10" onclick="hide()" id="btn1">
+      <img src="https://ecoliwaste.com/wp-content/uploads/2022/06/home-Plastic-Waste-Dustbin.png" class="w-16 z-10" onclick="hide()" id="btn1">
       <div class="relative">
         <hr
           class="line h-40 left-3 mt-3 border-l-2 border-[#588853] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
@@ -92,7 +97,7 @@
           <div class="w-5 h-5 bg-black rounded-full" id="circle1"></div>
 
         </span>
-        <div class="absolute  text-[15px]  ml-5   text-[#588811]">
+        <div class="absolute  text-[15px]  ml-5   text-[#588811]" onclick="hide()" id="btn1">
           COLLECTION
         </div>
         <div class="" id="one">
@@ -115,7 +120,7 @@
     <!--* ----------------------------------------------------------------------------------------  -->
 
     <div class="md:w-1/4 h-40">
-      <img src="https://cdni.iconscout.com/illustration/premium/thumb/e-waste-sorting-7981271-6382448.png" class="w-20" id="btn2" onclick="hide()">
+      <img src="https://cdni.iconscout.com/illustration/premium/thumb/e-waste-sorting-7981271-6382448.png" class="w-24" id="btn2" onclick="hide()">
       <div class="relative">
         <hr
           class="line  h-40 left-3 mt-3 border-l-2 border-[#588853] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
@@ -124,7 +129,7 @@
           <div class="w-5 h-5 bg-black rounded-full" id="circle2"></div>
 
         </span>
-        <div class="absolute  text-[#588811] text-2xl text-[15px]   ml-5">
+        <div class="absolute  text-[#588811] text-2xl text-[15px]    ml-5" id="btn2" onclick="hide()">
           SORTING
         </div>
         <div class="hidden" id="two">
@@ -143,8 +148,8 @@
     <!--*----------------------------------------------------------------------------------------  -->
 
 
-    <div class="md:w-1/4 h-40">
-      <img src="https://png.pngtree.com/png-clipart/20201208/original/pngtree-cartoon-hand-drawn-trash-can-recycling-illustration-png-image_5507693.jpg" class="w-14" id="btn3" onclick="hide()">
+    <div class="md:w-1/4 h-40 relative">
+      <img src="processingF.png" class="w-16  z-10 " id="btn3" onclick="hide()">
       <div class="relative">
         <hr
           class="line h-40 left-3 mt-3 border-l-2 border-[#588853] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
@@ -153,7 +158,7 @@
           <div class="w-5 h-5 bg-black rounded-full" id="circle3"></div>
 
         </span>
-        <div class="absolute  text-[#588811] text-2xl text-[15px]  ml-5">
+        <div class="absolute  text-[#588811] text-2xl text-[15px]  ml-5" id="btn3" onclick="hide()">
 PROCESSING
         </div>
         <div class="hidden" id="three">
@@ -171,8 +176,8 @@ PROCESSING
 
     <!--*----------------------------------------------------------------------------------------  -->
 
-    <div class="md:w-1/4 h-40">
-      <img src="https://e7.pngegg.com/pngimages/910/263/png-clipart-computer-recycling-electronic-waste-electronics-hazardous-waste-recycle-computer-recycling.png" class="w-12" onclick="hide()" id="btn4">
+    <div class="md:w-1/4 h-40 relative">
+      <img src="recoveryF.png" class="w-16 z-10" onclick="hide()" id="btn4">
       <div class="relative">
         <hr
           class="line h-40 left-3 mt-3 border-l-2 border-[#588853] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
@@ -182,7 +187,7 @@ PROCESSING
           <div class="w-5 h-5  bg-black rounded-full" id="circle4" ></div>
 
         </span>
-        <div class="absolute text-[15px]  text-[#588811] text-2xl  ml-5">
+        <div class="absolute text-[15px]  text-[#588811] text-2xl  ml-5" onclick="hide()" id="btn4">
           RECOVERY
         </div>
         <div class="hidden" id="four">
@@ -202,8 +207,8 @@ PROCESSING
 
 
 
-    <div class="md:w-1/4 h-40">
-      <img src="https://cdn-icons-png.freepik.com/512/4826/4826953.png" class="w-12" id="btn5" onclick="hide()">
+    <div class="md:w-1/4 h-40 relative">
+      <img src="https://cdn-icons-png.flaticon.com/512/5611/5611571.png" class="w-16 z-10" id="btn5" onclick="hide()">
       <div class="relative">
         <hr
           class="line  h-40 left-3 mt-3 border-l-2 border-[#588853] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
@@ -212,7 +217,7 @@ PROCESSING
           <div class="w-5 h-5 bg-black rounded-full" id="circle5"></div>
 
         </span>
-        <div class="absolute text-[15px]  text-[#588811] text-2xl  ml-5">
+        <div class="absolute text-[15px]  text-[#588811] text-2xl  ml-5" id="btn5" onclick="hide()">
           REPORTING
         </div>
         <div class="hidden" id="five">

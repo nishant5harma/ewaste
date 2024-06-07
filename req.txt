@@ -1,17 +1,9 @@
-About us new,
-let's change ['cursive']
-collection istance of about
+services--
+1.Ewaste recycling -> video here ---> contact us, pickup
 
-remove newsletter
-change footer
+epr..
+No box needed, in laptop 3 rows
 
-about us--
-dropdown-
-About
-[company]
-certificate
+reverse logistics..
+use reference image
 
-
-ewaste--souce of ewaste
-dynamic icon changes
-learn more | form from pickup | contact us

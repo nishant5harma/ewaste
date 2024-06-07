@@ -44,7 +44,7 @@ function generateNavbar() {
           class="bg-white shadow-lg md:shadow-none  mt-5 absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
           <div class="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
             <a href="index.html"
-              class="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">HOME</a>
+              class="px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">HOME</a>
             
 
 
@@ -56,15 +56,15 @@ function generateNavbar() {
             
             
               <div class="dropdown">
-                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">ABOUT	
+                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">ABOUT	
                 
 
 
                   
                 </div>
                 <ul tabindex="0" class="dropdown-content bg-white  z-[1] menu p-2 shadow   rounded-box w-52">
-                  <li><a href="company.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">Company</a></li>
-                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">	E-Waste Recycling</a></li>
+                  <li><a href="company.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">Company</a></li>
+                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
                 </ul>
               </div>
             
@@ -80,31 +80,31 @@ function generateNavbar() {
    
             
               <div class="dropdown">
-                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">SERVICES	
+                <div tabindex="0" role="button" class=" bg-white px-3 py-2 mx-3 mt-2  transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">SERVICES	
                 
 
 
                   
                 </div>
                 <ul tabindex="0" class="dropdown-content bg-white  z-[1] menu p-2 shadow   rounded-box w-52">
-                  <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">Reverse Logistics
+                  <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">Reverse Logistics
                   </a></li>
-                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">	E-Waste Recycling</a></li>
+                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
                 </ul>
               </div>
 
 
 
             <a href="#"
-              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">CAREER</a>
+              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">CAREER</a>
 
 
               <a href="epr.html"
-              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">EPR</a>
+              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">EPR</a>
 
 
             <a href="contact.html"
-              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#588811] hover:text-white text-[#588811] font-bold">CONTACT
+              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">CONTACT
               US</a>
 
           </div>
