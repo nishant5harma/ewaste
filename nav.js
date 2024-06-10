@@ -194,10 +194,9 @@ function contact(){
 
           </h4>
           <p>Fill this form to connect with our team. </p>
-          <a
-            href="javascript:void(0)"
-            class="flex items-center gap-1 bg-blue-50 p-2 rounded-lg text-sm text-indigo-900 duration-150   font-medium"
-            >Fill Form<svg
+         
+          <button class="bg-gray-100 w-full flex items-center gap-1 p-2 text-start text-blue-900 rounded-md     transition" onclick="openModal('modelConfirm')">
+  Contact Us <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
@@ -209,7 +208,7 @@ function contact(){
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
+</button>
         </li>
         <li
           class="space-y-3 border-t py-6 md:max-w-sm md:py-0 md:border-t-0 lg:border-l lg:px-12 lg:max-w-none"
@@ -258,9 +257,8 @@ document.write(contactF);
 function modal(){
 
   const modelF=
-  `<button class="bg-rose-500 text-white rounded-md px-4 py-2 hover:bg-rose-700 transition" onclick="openModal('modelConfirm')">
-  Click to Open modal
-</button>
+  `
+
 
 <div id="modelConfirm" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
    <div class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-md">
@@ -276,23 +274,21 @@ function modal(){
            </button>
        </div>
 
-       <div class="p-6 pt-0 text-center">
-           <svg class="w-20 h-20 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-               xmlns="http://www.w3.org/2000/svg">
-               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                   d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-           </svg>
-           <h3 class="text-xl font-normal text-gray-500 mt-5 mb-6">Are you sure you want to delete this user?</h3>
-           <a href="#"  onclick="closeModal('modelConfirm')"
-               class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center mr-2">
-               Yes, I'm sure
-           </a>
-           <a href="#" onclick="closeModal('modelConfirm')"
-               class="text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:ring-cyan-200 border border-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
-               data-modal-toggle="delete-user-modal">
-               No, cancel
-           </a>
+      
+       <form>
+       <div class='text-center py-2 gap-y-2 p-5 bottom-5'>
+       <h1 class='text-2xl text-black'>Enter Your Details </h1>
+
+ 
+       <input type='text' name='Name' placeholder='Name' class='p-2 w-[90%] bg-gray-100 mt-2'>
+       <input type='tel' name='Phone' placeholder='Phone Number' class='p-2 w-[90%] bg-gray-100 mt-2'>
+
+
+       <button class='bg-[#344822] w-[200px] text-white p-1 mt-3'>Submit</button>
        </div>
+       </form>
+       <br>
+      
 
    </div>
 </div>
