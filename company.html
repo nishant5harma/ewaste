@@ -38,22 +38,16 @@
   <!-- component -->
 <div class="py-16 bg-white">  
 
-
-<div class="container mx-auto ">
-
-  <h1 class="text-3xl font-bold text-black">ABOUT</h1>
-
-
-</div>
+  
 <br>
   <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-      <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-        <div class="md:5/12 lg:w-5/12">
-          <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="">
+      <div class="space-y-6 md:space-y-0 md:flex md:gap-1 lg:items-start lg:gap-12">
+        <div class=" ">
+          <img src="About.jpg" alt="image" loading="lazy" class="lg:h-[500px]">
         </div>
         <div class="md:7/12 lg:w-6/12">
-          <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Company</h2>
-          <p class="mt-6 text-gray-600 break-words">Overview of Grandeur Recycling Private Limited
+          <h2 class="text-3xl text-gray-900 font-bold md:text-4xl uppercase">Company</h2>
+          <p class="mt-6 text-gray-600 break-words text-2xl text-justify">Overview of Grandeur Recycling Private Limited
             Grandeur Recycling Private Limited (GRPL) was formed in September 2023 with a core vision of providing complete solutions to the ever increasing E Waste that is generated. The company has proposed to set up its 1st ever plant of over 40000 sq ft in Sonipat Distt of Haryana. The company also plans to open warehouse spaces pan Indian backed by IT integrated solutions for higher efficiency for collection of E Waste. The company will also help integrate the informal recycling sector and establish an effective electronic take-back program through awareness events and collection drives. The company is also looking to establish a refurbishing facility in the near future, backed by cutting edge technology, to extend the useful life of old electronics and to promote reusing the same.
             </p>
           
@@ -68,33 +62,68 @@
       
         <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
           <div class="md:7/12 lg:w-6/12">
-            <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">CSR Commitment
+            <h2 class="text-3xl text-gray-900 font-bold md:text-4xl uppercase">CSR Commitment
             </h2>
-            <p class="mt-6 text-gray-600 break-words">GRPL considers minimizing negative impact on the environment as one of the top priorities. The company seriously committed to strive for a greener and better tomorrow by using cutting edge technologies for recycling . The Company plays a vital role to meet CSR obligations towards themselves and society by merely handling the E Waste for scientific recycling at the designated places. Our business activities will achieve this through technology and action. We will support these efforts through a culture that encourages each of our employees to proactively instigate positive changes and create improvements in the space of E Waste Recycling. 
+            <p class="mt-6 text-gray-600 break-words text-justify text-2xl">GRPL considers minimizing negative impact on the environment as one of the top priorities. The company seriously committed to strive for a greener and better tomorrow by using cutting edge technologies for recycling . The Company plays a vital role to meet CSR obligations towards themselves and society by merely handling the E Waste for scientific recycling at the designated places. Our business activities will achieve this through technology and action. We will support these efforts through a culture that encourages each of our employees to proactively instigate positive changes and create improvements in the space of E Waste Recycling. 
 
               </p>
               <div class="container">
-                <br><br>
-                <h1 class="mt-2 font-bold text-3xl text-black">
+                <br> 
+                <h1 class="text-3xl text-gray-900 font-bold md:text-4xl uppercase">
           
           Certification and Compliance
           
                 </h1>
-                
-                <marquee behavior="" direction="">
-                  <div class="flex">
-                  <div><img  class="w-[100px] lg:w-[170px] lg:h-[130px]" src="c1.jpg"></div>
-                  <div><img class="w-[100px] lg:w-[100px]" src="c2.jpg"></div>
-                  <div><img class="w-[200px] lg:w-[170px] lg:h-[100px]" src="c3.jpg"></div>
-                  <div><img class="w-[100px] lg:w-[100px] lg:h-[100px]" src="c4.png"></div>
+                <style>
+                   
+        .marquee {
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .marquee-content {
+            display: flex;
+            animation: marquee 8s linear infinite;
+        }
+
+        .marquee-content > div {
+            flex: 0 0 auto; /* Ensure each image container does not shrink or grow */
+        }
+
+        @keyframes marquee {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+    </style>
+                </style>
+                <div class="marquee" behavior="" direction=""  >
+                  <div class="flex items-center space-x-4 marquee-content">
+                      <div class="flex items-center justify-center">
+                          <img class="w-40 h-36 object-cover" src="c1 (1).jpg" alt="Image 1">
+                      </div>
+                      <div class="flex items-center justify-center">
+                          <img class="w-24 h-24 object-cover" src="c2 (1).jpg" alt="Image 2">
+                      </div>
+                      <div class="flex items-center justify-center">
+                          <img class="w-40 h-32 object-cover" src="c3 (1).jpg" alt="Image 3">
+                      </div>
+                      <div class="flex items-center justify-center">
+                          <img class="w-24 h-24 object-cover" src="c4 (1).png" alt="Image 4">
+                      </div>
+
+                      <div class="flex items-center justify-center">
+                        <img class="w-24 h-24 object-cover" src="iso-2.png" alt="Image 4">
+                    </div>
+                  </div>
                 </div>
-                </marquee>
               
               </div>
             
           </div>
-          <div class="md:5/12 lg:w-5/12">
-            <img src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png" alt="image" loading="lazy" width="" height="">
+          <div class=" ">
+            <img src="comm.png" alt="image" loading="lazy" class="lg:h-[500px]">
           </div>
          
         </div>

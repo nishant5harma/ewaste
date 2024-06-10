@@ -157,6 +157,181 @@ function generateNavbar() {
     document.write(footerHTML)
   }
 
+
+function contact(){
+  const contactF=`
+  <section class="py-14 bg-[#344822]">
+  <div
+    class="max-w-screen-xl mx-auto px-4 text-white gap-12 md:px-8 lg:flex"
+  >
+    <div class="max-w-md">
+      <h3 class="text-white text-3xl font-semibold sm:text-4xl">
+        Join Us in Supporting EPR
+
+      </h3>
+      <p class="mt-3">
+        By choosing GRPL, you are not only responsibly disposing of your electronic waste but also supporting the principles of Extended Producer Responsibility. Together, we can make a positive impact on the environment and build a more sustainable future.
+
+      </p>
+    </div>
+    <div>
+      <ul
+        class="mt-12 gap-y-6 gap-x-12 items-center md:flex lg:gap-x-0 lg:mt-0"
+      >
+        <li
+          class="space-y-3 border-t py-6 md:max-w-sm md:py-0 md:border-t-0 lg:border-l lg:px-12 lg:max-w-none"
+        >
+          <div
+            class="w-12 h-12 rounded-full border flex items-center justify-center text-white"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 0 1-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 0 0 1.183 1.981l6.478 3.488m8.839 2.51-4.66-2.51m0 0-1.023-.55a2.25 2.25 0 0 0-2.134 0l-1.022.55m0 0-4.661 2.51m16.5 1.615a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.844a2.25 2.25 0 0 1 1.183-1.981l7.5-4.039a2.25 2.25 0 0 1 2.134 0l7.5 4.039a2.25 2.25 0 0 1 1.183 1.98V19.5Z" />
+          </svg>
+          
+          </div>
+          <h4 class="text-white text-lg font-medium xl:text-xl" >
+            Pick Up Form 
+
+          </h4>
+          <p>Fill this form to connect with our team. </p>
+          <a
+            href="javascript:void(0)"
+            class="flex items-center gap-1 bg-blue-50 p-2 rounded-lg text-sm text-indigo-900 duration-150   font-medium"
+            >Fill Form<svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </li>
+        <li
+          class="space-y-3 border-t py-6 md:max-w-sm md:py-0 md:border-t-0 lg:border-l lg:px-12 lg:max-w-none"
+        >
+          <div
+            class="w-12 h-12 rounded-full border flex items-center justify-center text-white"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+          </svg>
+          
+          </div>
+          <h4 class="text-white text-lg font-medium xl:text-xl ">
+            Contact Us
+
+          </h4>
+          <p>Connect directly with out team in just one click. </p>
+          <a
+            href="javascript:void(0)"
+            class="flex items-center gap-1 text-sm bg-blue-50 p-2 rounded-lg  text-indigo-900 duration-150   font-medium"
+            >Send us DMs<svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  `
+document.write(contactF);
+}
+
+
+
+function modal(){
+
+  const modelF=
+  `<button class="bg-rose-500 text-white rounded-md px-4 py-2 hover:bg-rose-700 transition" onclick="openModal('modelConfirm')">
+  Click to Open modal
+</button>
+
+<div id="modelConfirm" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto h-full w-full px-4 ">
+   <div class="relative top-40 mx-auto shadow-xl rounded-md bg-white max-w-md">
+
+       <div class="flex justify-end p-2">
+           <button onclick="closeModal('modelConfirm')" type="button"
+               class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center">
+               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                   <path fill-rule="evenodd"
+                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                       clip-rule="evenodd"></path>
+               </svg>
+           </button>
+       </div>
+
+       <div class="p-6 pt-0 text-center">
+           <svg class="w-20 h-20 text-red-600 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+               xmlns="http://www.w3.org/2000/svg">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                   d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+           </svg>
+           <h3 class="text-xl font-normal text-gray-500 mt-5 mb-6">Are you sure you want to delete this user?</h3>
+           <a href="#"  onclick="closeModal('modelConfirm')"
+               class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-base inline-flex items-center px-3 py-2.5 text-center mr-2">
+               Yes, I'm sure
+           </a>
+           <a href="#" onclick="closeModal('modelConfirm')"
+               class="text-gray-900 bg-white hover:bg-gray-100 focus:ring-4 focus:ring-cyan-200 border border-gray-200 font-medium inline-flex items-center rounded-lg text-base px-3 py-2.5 text-center"
+               data-modal-toggle="delete-user-modal">
+               No, cancel
+           </a>
+       </div>
+
+   </div>
+</div>
+
+<script type="text/javascript">
+   window.openModal = function(modalId) {
+       document.getElementById(modalId).style.display = 'block'
+       document.getElementsByTagName('body')[0].classList.add('overflow-y-hidden')
+   }
+
+   window.closeModal = function(modalId) {
+       document.getElementById(modalId).style.display = 'none'
+       document.getElementsByTagName('body')[0].classList.remove('overflow-y-hidden')
+   }
+
+   // Close all modals when press ESC
+   document.onkeydown = function(event) {
+       event = event || window.event;
+       if (event.keyCode === 27) {
+           document.getElementsByTagName('body')[0].classList.remove('overflow-y-hidden')
+           let modals = document.getElementsByClassName('modal');
+           Array.prototype.slice.call(modals).forEach(i => {
+               i.style.display = 'none'
+           })
+       }
+   };
+</script>
+  `
+
+  document.write(modelF);
+
+}
+
+
+
+
+
+
+
   function js(){
     const js=
     `
