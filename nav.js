@@ -87,9 +87,22 @@ function generateNavbar() {
                   
                 </div>
                 <ul tabindex="0" class="dropdown-content bg-white  z-[1] menu p-2 shadow   rounded-box w-52">
+                  
+                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
+
+
+                  <li><a href="rnr.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	Recycling and Recovery </a></li>
+
                   <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">Reverse Logistics
                   </a></li>
-                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
+
+                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	Refurbishment </a></li>
+
+                  <li>
+                  <a href="epr.html"
+                  class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">EPR</a>
+                  </li>
+
                 </ul>
               </div>
 
@@ -99,8 +112,7 @@ function generateNavbar() {
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">CAREER</a>
 
 
-              <a href="epr.html"
-              class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">EPR</a>
+             
 
 
             <a href="contact.html"
