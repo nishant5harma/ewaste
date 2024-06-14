@@ -88,7 +88,7 @@ function generateNavbar() {
                 </div>
                 <ul tabindex="0" class="dropdown-content bg-white  z-[1] menu p-2 shadow   rounded-box w-52">
                   
-                  <li><a href="Ewaste.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
+                  <li><a href="ewaste2.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	E-Waste Recycling</a></li>
 
 
                   <li><a href="rnr.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	Recycling and Recovery </a></li>
@@ -108,7 +108,7 @@ function generateNavbar() {
 
 
 
-            <a href="#"
+            <a href="career.html"
               class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">CAREER</a>
 
 
@@ -141,23 +141,24 @@ function generateNavbar() {
     </aside> 
     <nav>
       <h6 class="footer-title">Services</h6> 
-      <a class="link link-hover">Branding</a>
-      <a class="link link-hover">Design</a>
-      <a class="link link-hover">Marketing</a>
-      <a class="link link-hover">Advertisement</a>
+      <a href="ewaste2.html" class="link link-hover uppercase">E-Waste Recycling </a>
+      <a href="rnr.html" class="link link-hover  uppercase">Recycling and Recovery</a>
+      <a href="reverseL.html" class="link link-hover uppercase">Reverse logistics       </a>
+      <a class="link link-hover uppercase">Refurbishment</a>
+      <a href="epr.html" class="link link-hover uppercase">EPR</a>
     </nav> 
     <nav>
-      <h6 class="footer-title">Company</h6> 
-      <a class="link link-hover">About us</a>
-      <a class="link link-hover">Contact</a>
-      <a class="link link-hover">Jobs</a>
-      <a class="link link-hover">Press kit</a>
+      <h6 class="footer-title uppercase">Company</h6> 
+      <a href="index.html" class="link link-hover uppercase">Home</a>
+      <a href="company.html" class="link link-hover uppercase">About Us</a>
+      <a href="career.html" class="link link-hover uppercase">Career</a>
+      <a href="contact.html" class="link link-hover uppercase">Contact Us</a>
     </nav> 
     <nav>
       <h6 class="footer-title">Social Media</h6> 
-      <a class="link link-hover">Instagram</a>
-      <a class="link link-hover">Facebook</a>
-      <a class="link link-hover">Linkedin</a>
+      <a class="link link-hover uppercase">Instagram</a>
+      <a class="link link-hover uppercase">Facebook</a>
+      <a class="link link-hover uppercase">Linkedin</a>
     </nav>
   </footer>
 
@@ -239,7 +240,7 @@ function contact(){
           </h4>
           <p>Connect directly with out team in just one click. </p>
           <a
-            href="javascript:void(0)"
+            href="contact.html"
             class="flex items-center gap-1 text-sm bg-blue-50 p-2 rounded-lg  text-indigo-900 duration-150   font-medium"
             >Send us DMs<svg
               xmlns="http://www.w3.org/2000/svg"
@@ -294,7 +295,9 @@ function modal(){
  
        <input type='text' name='Name' placeholder='Name' class='p-2 w-[90%] bg-gray-100 mt-2'>
        <input type='tel' name='Phone' placeholder='Phone Number' class='p-2 w-[90%] bg-gray-100 mt-2'>
+       <input type='email' name='Email' placeholder='Email ID' class='p-2 w-[90%] bg-gray-100 mt-2'>
 
+       <input type='text' name='mes' placeholder='Message' class='p-2 w-[90%] bg-gray-100 mt-2 h-20'>
 
        <button class='bg-[#344822] w-[200px] text-white p-1 mt-3'>Submit</button>
        </div>
