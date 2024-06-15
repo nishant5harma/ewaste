@@ -144,7 +144,7 @@ function generateNavbar() {
       <a href="ewaste2.html" class="link link-hover uppercase">E-Waste Recycling </a>
       <a href="rnr.html" class="link link-hover  uppercase">Recycling and Recovery</a>
       <a href="reverseL.html" class="link link-hover uppercase">Reverse logistics       </a>
-      <a class="link link-hover uppercase">Refurbishment</a>
+      <a href="refurbished.html" class="link link-hover uppercase">Refurbishment</a>
       <a href="epr.html" class="link link-hover uppercase">EPR</a>
     </nav> 
     <nav>
