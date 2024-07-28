@@ -10,7 +10,7 @@
   <script>cdn();</script>
 </head>
 
-<body>
+<body class="bg-white">
 
   <script>
 
@@ -19,81 +19,55 @@
 
   <style>
     .bg-here{
-        background-image: url('epr.jpg');
+        background-image: url('Banner-for-recycling-page.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
+        
+    }
+    .glassbg{
+      background-color: rgba(0, 0, 0, 0.9);
     }
   </style>
 
+
+
+
+
+
 <section class="bg-white">
-    <div class="bg-here">
-      
-
-
-    </div>
-    <div class="bg-[#344822]  text-white  w-[100%] lg:w-[100%] p-10 h-auto  right-10 lg:right-52 top-1/2">
-
-      <h1 class="text-3xl">What is EPR?</h1>
-        <br>
-<p class="text-2xl text-justify ">
-  Extended Producer Responsibility (EPR) is a concept where manufacturers, importers, and sellers of products take responsibility for the entire life cycle of their products, especially regarding proper disposal and recycling. This means that those who produce goods are accountable for the environmental impact of those goods, even after they are sold and used.
-       
-</p> 
-
-    </div>
- <script>
-  modal()
- </script>
-
-    <section class="mt-10 lg:p-10"
-  x-data="{ features: [{ icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z'/></svg>`, title: 'Collection Programs', desc: 'We partner with manufacturers to collect end-of-life electronic products for recycling. Through our extensive collection network, we ensure that electronic waste is properly disposed of and recycled.' }, { icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z'/></svg>`, title: 'Recycling Facilities ', desc: 'Our state-of-the-art recycling facilities are equipped with advanced technology to safely and efficiently process e-waste. We utilize environmentally friendly methods to recover valuable materials and minimize waste.' },{ icon: `<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'><path stroke-linecap='round' stroke-linejoin='round' d='M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z'/></svg>`, title: 'Compliance ', desc: 'We strictly adhere to local and international regulations regarding e-waste recycling. Our compliance ensures that e-waste is managed responsibly and ethically.' }] }">
-  <div
-    class="max-w-screen-xl mx-auto px-4 gap-16 justify-between md:px-8 "
-  >
-      <div class="flex justify-center">
-        <div class=" space-y-3 space-x-2">
-          <h3 class="text-[#344822] font-semibold text-3xl">EPR</h3>
-          <p class="text-[#344822] text-3xl font-semibold sm:text-4xl">
-            Our Commitment to EPR
-  
-          </p>
-          <p class="text-black text-2xl">
-            As a leading e-waste recycling plant, we adhere to EPR principles to ensure the proper handling and recycling of electronic products. We work closely with manufacturers and producers to establish efficient recycling processes that minimize environmental impact and promote sustainability.
-  
-          </p>
+  <div class="bg-here relative">
+    <div class="absolute glassbg text-white rounded-lg w-[100%] lg:w-[100%] p-5 h-full flex items-center justify-center">
+        <div class="w-[80%] m-auto h-auto text-center">
+            <h1 class="text-2xl text-start">At GRPL (Grandeur Recycling Private Limited), we offer equipment refurbishment services tailored to support your continuous improvement and reliability targets while reducing operational costs. Our team of experts meticulously inspects, disassembles, replaces damaged components, and updates obsolete parts to optimize the performance of your equipment.
+            </h1>
         </div>
-      </div>
-     
+    </div>
+</div>
 
-      <div>
-      <div class="mt-12 max-w-lg text-2xl flex text-justify sm:max-w-none   ">
-        <ul class="space-y-8 space-x-8 sm:flex justify-evenly ">
-          <template x-for="(item, idx) in features" :key="idx">
-            <li class="sm:flex  gap-x-4 px-4    ">
-              <div
-                class="flex-none w-12 h-12 bg-indigo-50 text-[#588111] rounded-lg flex items-center justify-center"
-                x-html="item.icon"
-              ></div>
-              <div>
-                <h4
-                  class=" text-3xl text-[#344822] font-semibold"
-                  x-text="item.title"
-                ></h4>
-                <p class="mt-3 text-black" x-text="item.desc"></p>
-              </div>
-            </li>
-          </template>
-        </ul>
-      </div>
-    </div>
-    <div class="mt-32 lg:mt-0">
-      <!-- <img 
-        src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/Safari%20(Big%20Sur)%20-%20Light.png"
-        class="w-full shadow-lg rounded-lg border sticky"
-      /> -->
-    </div>
+
+
+    <!-- Component: Five and Seven uneven columns layout -->
+ 
+<!-- End Five and Seven uneven columns layout -->
+
+ 
+</section>
+
+
+
+
+
+
+<section class="mt-10">
+  <div class="container m-auto  p-5">
+
+    <h1 class="text-3xl text-black font-black"> Our Commitment to EPR
+    </h1>
+    <p class="text-2xl text-start p-2">
+      As a leading e-waste recycling plant, we adhere to EPR principles to ensure the proper handling and recycling of electronic products. We work closely with manufacturers and producers to establish efficient recycling processes that minimize environmental impact and promote sustainability.
+    </p>
   </div>
 </section>
 
@@ -101,23 +75,251 @@
 
 
 
-<script>
-contact();
-</script>
 
 
 
 
 
-
-
-
-
-</section>
 
 
 
  
+
+<section class="mt-20">
+  <div class="container m-auto p-5">
+   <h1 class="text-3xl text-black font-black"> Key Features of Our Refurbishment Service:</h1>
+  </div>
+</section>
+
+<section class="uppercase"> 
+  
+  <!-- !End of Hero Section -->
+  
+ 
+  <div
+    class="flex flex-col md:flex-row md:justify-around md:mt-11 md:container md:mx-auto  bg-white relative bottom-10 p-5 mt-10 text-black">
+
+
+
+
+    <div class="md:w-1/4 h-56 relative">
+      <img src="https://ecoliwaste.com/wp-content/uploads/2022/06/home-Plastic-Waste-Dustbin.png" class="w-16 z-10" onclick="hide()" id="btn1">
+      <div class="relative">
+        <hr
+          class="line h-40 left-3 mt-3 border-l-2 border-[#344822] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
+
+        <span class="bg-red-50 absolute bottom-[-10px]">
+          <div class="w-5 h-5 bg-black rounded-full" id="circle1"></div>
+
+        </span>
+        <div class="absolute   text-[15px]  ml-5 text-justify   text-[#344822]" onclick="hide()" id="btn1">
+          Collection Programs
+        </div>
+        <div class="" id="one">
+          <div class="absolute mt-2 lg:mt-10  p-3 ml-5  text-start">
+            We partner with manufacturers to collect end-of-life electronic products for recycling. Through our extensive collection network, we ensure that electronic waste is properly disposed of and recycled. 
+
+          </div>
+         
+        </div>
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+    <!--* ----------------------------------------------------------------------------------------  -->
+
+    <div class="md:w-1/4 h-56">
+      <img src="https://cdni.iconscout.com/illustration/premium/thumb/e-waste-sorting-7981271-6382448.png" class="w-24" id="btn2" onclick="hide()">
+      <div class="relative">
+        <hr
+          class="line  h-40 left-3 mt-3 border-l-2 border-[#344822] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
+
+        <span class="bg-red-50 absolute bottom-[-10px]">
+          <div class="w-5 h-5 bg-black rounded-full" id="circle2"></div>
+
+        </span>
+        <div class="absolute  text-[#344822] text-2xl text-[15px]    ml-5" id="btn2" onclick="hide()">
+          Recycling Facilities
+        </div>
+        <div class="hidden" id="two">
+          <div class="absolute mt-2 lg:mt-10  p-3 ml-5">
+            Our state-of-the-art recycling facilities are equipped with advanced technology to safely and efficiently process e-waste. We utilize environmentally friendly methods to recover valuable materials and minimize waste.
+
+
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <!--*----------------------------------------------------------------------------------------  -->
+
+
+    <div class="md:w-1/4 h-56 relative">
+      <img src="processingF.png" class="w-16  z-10 " id="btn3" onclick="hide()">
+      <div class="relative">
+        <hr
+          class="line h-40 left-3 mt-3 border-l-2 border-[#344822] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]">
+
+        <span class="bg-red-50 absolute bottom-[-10px]">
+          <div class="w-5 h-5 bg-black rounded-full" id="circle3"></div>
+
+        </span>
+        <div class="absolute  text-[#344822] text-2xl text-[15px]  ml-5" id="btn3" onclick="hide()">
+          Compliance
+        </div>
+        <div class="hidden" id="three">
+          <div class="absolute mt-2 lg:mt-10  p-3 ml-5  ">
+            We strictly adhere to local and international regulations regarding e-waste recycling. Our compliance ensures that e-waste is managed responsibly and ethically.
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+    <!--*----------------------------------------------------------------------------------------  -->
+
+    <div class="md:w-1/4 h-56 relative">
+      <!-- <img src="recoveryF.png" class="w-16 z-10" onclick="hide()" id="btn4"> -->
+      <div class="relative">
+        <!-- <hr
+          class="line h-40 left-3 mt-3 border-l-2 border-[#344822] absolute md:relative md:left-0 md:mt-3 md:w-full md:h-1 z-[0]"> -->
+
+
+        <span class="bg-red-50 absolute bottom-[-10px]">
+          <div class="w-5 h-5  bg-white rounded-full" id="circle4" ></div>
+
+        </span>
+        <!-- <div class="absolute text-[15px]  text-[#344822] text-2xl  ml-5" onclick="hide()" id="btn4"> -->
+            <!-- Technical Support -->
+        </div>
+        <div class=" " id="four">
+
+
+          <div class="absolute mt-5 lg:mt-10 p-3 ml-5">
+            <!-- We provide ongoing technical support to ensure the continued performance of your refurbished equipment. -->
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+
+    
+  </div>
+
+
+  <br><br>
+</section>
+
+
+
+
+
+
+<script>
+    function hide() {
+      var var1 = document.getElementById('four');
+      var var2= document.getElementById('one');
+      var var3= document.getElementById('two');
+      var var4= document.getElementById('three');
+      var var5=document.getElementById('five')
+
+
+      
+      if (var1.classList.contains("hidden")|| var2.classList.contains("hidden") ||  var3.classList.contains("hidden") ||  var4.classList.contains("hidden")||var5.classList.contains("hidden")) {
+
+
+        var id= event.target.id;
+        // alert(id)
+
+
+         
+        if(id=='btn5'){
+          var5.classList.remove("hidden");
+          document.getElementById("circle3","circle1","circle2").classList.remove('bg-[#344822]')
+          document.getElementById("circle4").classList.add('bg-[#344822]')
+          var2.classList.add('hidden');
+          var3.classList.add('hidden');
+          var4.classList.add('hidden');
+          var1.classList.add('hidden');
+        }
+
+       
+        if(id=='btn4'){
+          var1.classList.remove("hidden");
+          document.getElementById("circle3","circle1","circle2","").classList.remove('bg-[#344822]')
+          document.getElementById("circle4").classList.add('bg-[#344822]')
+          var2.classList.add('hidden');
+          var3.classList.add('hidden');
+          var4.classList.add('hidden');
+          var5.classList.add("hidden");
+        }
+
+        if(id=='btn3'){
+          document.getElementById("circle4","circle1","circle2").classList.remove('bg-[#344822]')
+          document.getElementById("circle3").classList.add('bg-[#344822]')
+          
+          var1.classList.add("hidden");
+          var2.classList.add('hidden');
+          var3.classList.add('hidden');
+          var4.classList.remove('hidden');
+          var5.classList.add("hidden");
+        }
+        if(id=='btn2'){
+          document.getElementById("circle4","circle1","circle3").classList.remove('bg-[#344822]')
+          document.getElementById("circle2").classList.add('bg-[#344822]')
+          var1.classList.add("hidden");
+          var2.classList.add('hidden');
+          var3.classList.remove('hidden');
+          var4.classList.add('hidden');
+          var5.classList.add("hidden");
+        }
+
+  
+        if(id=='btn1'){
+          document.getElementById("circle4","circle2","circle3").classList.remove('bg-[#344822]')
+          document.getElementById("circle1").classList.add('bg-[#344822]')
+          
+          var1.classList.add("hidden");
+          var2.classList.remove('hidden');
+          var3.classList.add('hidden');
+          var4.classList.add('hidden');
+          var5.classList.add("hidden");
+        }  
+
+      }
+    }
+  </script>
+
+
+
+<script>
+  modal();
+  contact();
+ </script>
+
 
 </body>
 
@@ -126,6 +328,9 @@ contact();
   js();
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script>
+    
+</script>
 </body>
 
 </html>
