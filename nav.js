@@ -93,8 +93,7 @@ function generateNavbar() {
 
                   <li><a href="rnr.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	Recycling and Recovery </a></li>
 
-                  <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">Reverse Logistics
-                  </a></li>
+                
 
                   <li><a href="refurbished.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">	Refurbishment </a></li>
 
@@ -103,6 +102,8 @@ function generateNavbar() {
                   class="px-3 py-2 mx-3 mt-2   transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">EPR</a>
                   </li>
 
+                  <li><a href="reverseL.html" class="px-3 py-2 mx-3 mt-2  first-letter: transition-colors duration-300 transform rounded-md lg:mt-0 hover:bg-[#344822] hover:text-white text-black font-bold">Reverse Logistics
+                  </a></li>
                 </ul>
               </div>
 
